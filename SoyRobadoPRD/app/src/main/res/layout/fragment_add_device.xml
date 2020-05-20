@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.add_device">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Agrega el nombre para que veas en lista tus dispositivos"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+
+            android:text="Solo eso será suficiente para identificar este telefono como único nosotros nos encargamos de que sea así"
+            android:textAlignment="textStart"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edit_namedevice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Nombre del Dispositivo "
+            android:inputType="textPersonName"
+            />
+
+        <Button
+            android:id="@+id/btn_save_devicenew"
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:text="Guardar"
+            />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

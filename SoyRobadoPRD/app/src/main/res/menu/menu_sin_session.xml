@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+
+
+    <item android:title="Opciones:">
+        <menu>
+
+            <item
+                android:id="@+id/navigation_error"
+                android:icon="@drawable/ic_error_black_24dp"
+                android:title="@string/verificar_este_dispositivo" />
+            <item
+                android:id="@+id/IniciarSessionBTN"
+                android:icon="@drawable/ic_person_outline_black_24dp"
+                android:title="@string/iniciar_session"
+                />
+            <item
+                android:id="@+id/reporteErroBTN_nosession"
+                android:icon="@drawable/ic_error_black_24dp"
+                android:title="@string/informar_un_error"
+                ></item>
+            <item
+                android:id="@+id/Info"
+                android:icon="@drawable/ic_help_outline_black_24dp"
+                android:title="@string/informacion"
+                ></item>
+                   </menu>
+    </item>
+
+</menu>

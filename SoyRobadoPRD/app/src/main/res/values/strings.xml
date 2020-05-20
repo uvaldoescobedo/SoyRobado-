@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Soy Robado</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="iniciar_session"> Iniciar Sesión</string>
+    <string name="informar_un_error"> Informar un Error</string>
+    <string name="administrar_dispositivos">Lista de Dispositivos</string>
+    <string name="ver_paginas_oficiales">Paginas Oficiales</string>
+    <string name="comprobar_este_dispositivo">Comprobar este Dispositivo</string>
+    <string name="icon">Icon</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Bienvenido a Soy Robado</string>
+    <string name="nav_header_subtitle">Inicia Sesión para REPORTAR un dispositivo </string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="verificar_este_dispositivo">VERIFICAR ESTE DISPOSITIVO</string>
+    <string name="verificar_este_dispositivo_no_es_robado">VERIFICAR SI TIENE REPORTE DE ROBO</string>
+    <string name="informacion">Información</string>
+    <string name="cerrar_session">Cerrar Sesión</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="registro">registro</string>
+    <string name="contra">Contraseña</string>
+    <string name="usuario">Correo</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="registrar">Registrar</string>
+    <string name="title_activity_mis__dispositivos">Mis_Dispositivos</string>
+</resources>

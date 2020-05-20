@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Opciones:">
+        <menu>
+            <item
+                android:id="@+id/MisDispositivos"
+                android:icon="@drawable/ic_dashboard_black_24dp"
+                android:title="@string/administrar_dispositivos"
+                />
+
+            <item
+                android:id="@+id/navigation_error"
+                android:icon="@drawable/ic_error_black_24dp"
+                android:title="@string/verificar_este_dispositivo" />
+
+        </menu>
+    </item>
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/CerrarSession"
+                android:icon="@drawable/ic_power_settings_new_black_24dp"
+                android:title="@string/cerrar_session"
+                />
+            <item
+                android:id="@+id/reporteErroBTN_con_session"
+                android:icon="@drawable/ic_warning_black_24dp"
+                android:title="@string/informar_un_error"
+                ></item>
+            <item
+                android:id="@+id/Info"
+                android:icon="@drawable/ic_help_outline_black_24dp"
+                android:title="@string/informacion"
+                ></item>
+
+
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="EditText">
+
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">#ffff</item>
+        <item name="android:textColor">#ffff</item>
+        <item name="android:ems">10</item>
+
+    </style>
+</resources>

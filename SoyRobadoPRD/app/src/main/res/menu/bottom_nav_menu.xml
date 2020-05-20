@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_cuenta"
+        android:icon="@drawable/ic_account_box_black_24dp"
+        android:title="@string/iniciar_session" />
+
+    <item
+        android:id="@+id/navigation_admin"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/administrar_dispositivos" />
+
+
+</menu>
